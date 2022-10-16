@@ -10,7 +10,7 @@ on:
     branches: [ "main" ]
   
   schedule:
-    - cron: '0 0 * * *' # run every 5 min
+    - cron: '0 0 * * *' # run every day at 00:00 hour
 
 jobs:
   build:
